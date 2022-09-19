@@ -54,11 +54,6 @@ public class T1_WindowHandling {
 
         Assert.assertTrue(actualTitle.contains(expectedTitle));
 
-        //Lines to be pasted:
-
-
-        //These lines will simply open new tabs using something called JavascriptExecutor
-        //and get those pages. We will learn JavascriptExecutor later as well.
 
 
     }
