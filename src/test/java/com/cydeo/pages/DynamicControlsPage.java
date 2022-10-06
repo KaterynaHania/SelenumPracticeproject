@@ -28,6 +28,12 @@ public class DynamicControlsPage {
     @FindBy(css = "p[id='message']")
     public WebElement message;
 
+    @FindBy(xpath = "//button[.='Enable']")
+    public WebElement enableBtn;
+
+    @FindBy(css = "input[type='text']")
+    public WebElement inputBox;
+
 
 
 
