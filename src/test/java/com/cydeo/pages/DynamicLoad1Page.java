@@ -14,15 +14,20 @@ public class DynamicLoad1Page {
     @FindBy(xpath = "//button[.='Start']")
     public WebElement startBtn;
 
-    @FindBy(css = "loading")
+    @FindBy(css = "#loading")
     public WebElement loadingBar;
 
     @FindBy(css = "#username")
     public WebElement inputUsername;
 
     @FindBy(css = "#pwd")
-    public WebElement inputLogin;
+    public WebElement inputPassword;
 
+    @FindBy(xpath = "//button[.='Submit']")
+    public WebElement submitButton;
+
+    @FindBy(id = "flash")
+    public WebElement errorMessage;
 
 
 
